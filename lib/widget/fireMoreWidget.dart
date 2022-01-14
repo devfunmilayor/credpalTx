@@ -24,7 +24,7 @@ class FireMoreLight extends StatelessWidget {
             color: rBTNColorV,
             borderRadius: BorderRadius.circular(10.r)
         ),
-        child: Icon(Icons.rotate_right,
+        child: Icon(Icons.local_fire_department,
         color: Colors.white,),
       ),
     );

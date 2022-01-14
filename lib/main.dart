@@ -2,6 +2,7 @@ import 'package:credpaltest/route.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
 import 'package:flutter/services.dart' as device;
+import 'package:flutter/services.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:google_fonts/google_fonts.dart';
 
@@ -11,8 +12,8 @@ void main() async {
 
   await device.SystemChrome.setPreferredOrientations(
       [device.DeviceOrientation.portraitUp]);
-  await device.SystemChrome.setEnabledSystemUIOverlays(
-      [device.SystemUiOverlay.bottom]);
+  await device.SystemChrome.setEnabledSystemUIMode(
+      SystemUiMode.manual, overlays: [device.SystemUiOverlay.bottom]);
   device.SystemChrome.setSystemUIOverlayStyle(
       device.SystemUiOverlayStyle(statusBarColor: Colors.transparent));
   runApp(MyApp(

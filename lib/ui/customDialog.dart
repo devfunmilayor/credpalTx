@@ -35,8 +35,8 @@ class CustomPop extends StatelessWidget {
       shape: RoundedRectangleBorder(
           borderRadius: BorderRadius.all(Radius.circular(38.0.r))),
       child: Container(
-        height: size.height * 0.43.h,
-        width: double.infinity,
+        height: size.height * 0.45,
+        width: size.width*2,
         decoration: BoxDecoration(
             color: Color(0xff333059),
             borderRadius: BorderRadius.all(Radius.circular(32.0.r))),
@@ -47,7 +47,7 @@ class CustomPop extends StatelessWidget {
               CustomDialogHeader(),
               CustomFromPrev(size: size),
               Container(
-                height: size.height * 0.14.h,
+                height: size.height * 0.13,
                 // width: double.infinity,
                 child: ListView(
                     scrollDirection: Axis.horizontal,

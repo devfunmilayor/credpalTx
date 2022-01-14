@@ -14,7 +14,7 @@ class CustomDialogHeader extends StatelessWidget {
       leading: CircleAvatar(
         backgroundColor: Color(0xff553B5E),
         radius: 30,
-        child: Icon(Icons.add_to_drive, color: rbIconColorI,),
+        child: Icon(Icons.local_fire_department, color: rbIconColorI,),
       ),
       title: Text('New Workout', style: TextStyle(
           fontWeight: FontWeight.w400,
@@ -82,7 +82,7 @@ class CalenderII extends StatelessWidget {
             style: TextStyle(color: Color(0xffC2E4FF), fontSize: 11.sp),
           ),
           HSP(
-            myCustomSize: 0.002.h,
+            myCustomSize: 0.002,
           ),
           Text(
             date,

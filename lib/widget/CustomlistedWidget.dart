@@ -22,7 +22,7 @@ class ListedWidgetDateExcercise extends StatelessWidget {
     return Container(
       margin: EdgeInsets.symmetric(vertical: 10, horizontal: 5),
       padding: EdgeInsets.symmetric(vertical: 10, horizontal: 30),
-      height: size.height * 0.12.h,
+      height: size.height * 0.13,
       width: size.width * 0.58.w,
       decoration: BoxDecoration(
           color: Color(0xff403A68), borderRadius: BorderRadius.circular(16.r)),
@@ -36,7 +36,7 @@ class ListedWidgetDateExcercise extends StatelessWidget {
           ),
           Container(
             padding: EdgeInsets.symmetric(horizontal: 5.w, vertical: 6.h),
-            height: size.height * 0.08.h,
+            height: size.height * 0.07.h,
             width: size.width * 0.3.w,
             child: Column(
               mainAxisAlignment: MainAxisAlignment.start,
@@ -54,7 +54,7 @@ class ListedWidgetDateExcercise extends StatelessWidget {
                   ],
                 ),
                 Padding(
-                  padding: EdgeInsets.symmetric(vertical: 6.0.h),
+                  padding: EdgeInsets.symmetric(vertical: 4.0.h),
                   child: Align(
                     alignment: Alignment.topLeft,
                     child: Text(
